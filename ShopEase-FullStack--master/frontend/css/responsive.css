@@ -1,0 +1,25 @@
+/* =========================================================
+   ShopEase - Responsive Adjustments
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+  .se-hero h1 { font-size: 2.1rem; }
+  .se-admin-sidebar { min-height: auto; }
+}
+
+@media (max-width: 767.98px) {
+  .se-hero { padding: 3rem 0 3.5rem; text-align: center; }
+  .se-hero h1, .se-hero p { max-width: 100%; }
+  .se-hero-search { margin: 0 auto; }
+  .se-section-title h2 { font-size: 1.25rem; }
+  .se-line-item { flex-wrap: wrap; }
+  .se-line-item img { width: 64px; height: 64px; }
+  .se-toast-container { left: 12px; right: 12px; top: 78px; }
+  .se-toast { min-width: 0; width: 100%; }
+}
+
+@media (max-width: 575.98px) {
+  .se-product-title { font-size: 0.88rem; }
+  .se-auth-card { padding: 1.4rem; }
+  .se-hero h1 { font-size: 1.7rem; }
+}
